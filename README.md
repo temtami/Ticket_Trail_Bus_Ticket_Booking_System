@@ -1,4 +1,4 @@
-# TicketTrail – Bus Ticket Booking System
+ TicketTrail – Bus Ticket Booking System
 
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL%20%2F%20MariaDB-10.4%2B-4479A1?logo=mysql&logoColor=white)
@@ -8,10 +8,9 @@ A full-stack bus ticket booking web app built with PHP and MySQL.
 Passengers can search trips, choose seats on an interactive seat map, book and cancel tickets.
 Admins manage bus types, buses, routes and trip schedules from a dashboard.
 
----
-## Project Structure
 
-```
+-- Project Structure
+
 Ticket_trail/
 ├── admin/index.php        # Admin dashboard
 ├── assets/css/style.css   # Styles
@@ -26,9 +25,9 @@ Ticket_trail/
 └── setup.php              # One-time admin creation
 
 
-##  Features
+-- Features
 
-### For passengers
+For passengers
 - Sign up and log in securely
 - Search trips by source, destination and date
 - Interactive seat map showing available, selected and booked seats
@@ -36,14 +35,14 @@ Ticket_trail/
 - Booking history with payment reference and status
 - Cancel upcoming bookings, which instantly releases the seats
 
-### For admins
+ For admins
 - Dashboard with customers, upcoming trips, active bookings and revenue
 - Add bus types, buses and routes
 - Schedule trips with automatic fare calculation (route base fare + bus type surcharge)
 - Delete trips that have no bookings
 - View recent bookings
 
-### Security and data integrity
+Security and data integrity
 - Passwords hashed with bcrypt (`password_hash`)
 - All queries use PDO prepared statements (SQL injection protection)
 - CSRF tokens on every form
@@ -53,7 +52,7 @@ Ticket_trail/
 
 ---
 
-##  Design
+-- Design
 
 ```mermaid
 erDiagram
@@ -78,7 +77,7 @@ erDiagram
 
 ---
 
-## 🧪 Testing
+--Testing
 
 The test suite checks the database schema, helper functions, and the full booking flow:
 registration, duplicate email rejection, fare calculation, seat booking, double-booking
