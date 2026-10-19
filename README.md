@@ -53,7 +53,7 @@ Ticket_trail/
 
 ---
 
-## 🗄️ Database Design
+##  Design
 
 ```mermaid
 erDiagram
