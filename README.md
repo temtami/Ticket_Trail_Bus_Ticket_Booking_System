@@ -1,4 +1,4 @@
- TicketTrail – Bus Ticket Booking System
+ # TicketTrail – Bus Ticket Booking System
 
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL%20%2F%20MariaDB-10.4%2B-4479A1?logo=mysql&logoColor=white)
@@ -9,20 +9,20 @@ Passengers can search trips, choose seats on an interactive seat map, book and c
 Admins manage bus types, buses, routes and trip schedules from a dashboard.
 
 
--- Project Structure
+ Project Structure
 
 Ticket_trail/
-├── admin/index.php        # Admin dashboard
-├── assets/css/style.css   # Styles
-├── config/db.php          # Database connection and settings
-├── database/schema.sql    # Tables and demo data
-├── includes/              # Shared helpers, header and footer
-├── tests/run_tests.php    # Automated test suite
-├── index.php              # Search page
-├── book.php               # Seat selection and booking
-├── my_bookings.php        # Booking history and cancellation
+├── admin/index.php         Admin dashboard
+├── assets/css/style.css    Styles
+├── config/db.php           Database connection and settings
+├── database/schema.sql     Tables and demo data
+├── includes/               Shared helpers, header and footer
+├── tests/run_tests.php     Automated test suite
+├── index.php               Search page
+├── book.php                Seat selection and booking
+├── my_bookings.php         Booking history and cancellation
 ├── login.php / register.php / logout.php
-└── setup.php              # One-time admin creation
+└── setup.php               One-time admin creation
 
 
 -- Features
