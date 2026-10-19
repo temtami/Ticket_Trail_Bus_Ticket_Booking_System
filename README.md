@@ -9,7 +9,7 @@ Passengers can search trips, choose seats on an interactive seat map, book and c
 Admins manage bus types, buses, routes and trip schedules from a dashboard.
 
 
- Project Structure
+ ##Project Structure
 
 Ticket_trail/
 ├── admin/index.php         Admin dashboard
