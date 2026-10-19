@@ -89,8 +89,10 @@ so the database is never modified.
 php tests/run_tests.php
 ```
 
-<img src="screenshots/tests.png" width="650">
+<img width="1861" height="813" alt="bookings " src="https://github.com/user-attachments/assets/afc8721c-1762-4539-a800-4dea000c0c0a" />
+<img width="1849" height="930" alt="Homepage of ticket_trail" src="https://github.com/user-attachments/assets/6512e14c-ad75-4c9f-944c-93b3cc286e61" />
+<img width="1846" height="936" alt="regestration" src="https://github.com/user-attachments/assets/43ca1cf6-ff05-4f59-b0b9-e286670bd41b" />
+<img width="1839" height="934" alt="ticket booking " src="https://github.com/user-attachments/assets/61d1b566-0ecb-4e51-8ce9-286db2e147aa" />
 
----
 
 
